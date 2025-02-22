@@ -3,7 +3,7 @@ name = "basic-django"
 version = "0.1.0"
 description = "Project used to learn Django"
 authors = [
-    {name = "Ricardo Brassolotto",email = "23336979+Brassolotto@users.noreply.github.com"}
+    {name = "Ricardo Brassolotto"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
