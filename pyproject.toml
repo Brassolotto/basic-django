@@ -1,0 +1,17 @@
+[project]
+name = "basic-django"
+version = "0.1.0"
+description = "Project used to learn Django"
+authors = [
+    {name = "Ricardo Brassolotto",email = "23336979+Brassolotto@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.1.6,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
