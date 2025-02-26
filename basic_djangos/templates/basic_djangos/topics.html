@@ -1,0 +1,14 @@
+{% extends "basic_djangos/base.html" %}
+
+{% block content %}
+    Tópicos:
+
+    <ul>
+        {% for topic in topics %}
+            <li>{{ topic }}</li>
+        {% empty %}
+            <li>Não há tópicos cadastrados.</li>
+        {% endfor %}
+    </ul>
+
+{% endblock content %}
